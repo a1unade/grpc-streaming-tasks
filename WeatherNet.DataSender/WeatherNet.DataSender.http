@@ -1,0 +1,6 @@
+@WeatherNet.DataSender_HostAddress = http://localhost:5027
+
+GET {{WeatherNet.DataSender_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

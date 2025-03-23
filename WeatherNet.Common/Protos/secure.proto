@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package protected;
+
+import "google/protobuf/empty.proto";
+
+service ProtectedService {
+  rpc SecureMethod (google.protobuf.Empty) returns (SecureResponse);
+}
+
+message SecureResponse {
+  string message = 1;
+}

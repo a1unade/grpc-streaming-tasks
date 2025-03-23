@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "WeatherNet";
+
+service Weather {
+  rpc GetWeatherUpdates(WeatherRequest) returns (stream WeatherResponse);
+}
+
+message WeatherRequest {
+  double latitude = 1;
+  double longitude = 2;
+}
+
+message WeatherResponse {
+  string requestTime = 1;
+  double temperature = 2;
+  string timestamp = 3;
+}

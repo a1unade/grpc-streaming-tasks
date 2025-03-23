@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package auth;
+
+import "google/protobuf/empty.proto";
+
+service AuthJwtService {
+  rpc GenerateJwtToken (google.protobuf.Empty) returns (JwtResponse);
+}
+
+message JwtResponse {
+  string token = 1;
+  string expires_at = 2;
+}

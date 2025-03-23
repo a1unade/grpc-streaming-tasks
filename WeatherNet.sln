@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherNet.DataSender", "WeatherNet.DataSender\WeatherNet.DataSender.csproj", "{8A6E07DD-4D0A-41B3-8BB1-54741F2F664A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherNet.Common", "WeatherNet.Common\WeatherNet.Common.csproj", "{369CE00B-0696-4262-A38E-28A88FDACBB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherNet.Client", "WeatherNet.Client\WeatherNet.Client.csproj", "{8701EC3A-072F-4815-B825-78C6363F9811}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A6E07DD-4D0A-41B3-8BB1-54741F2F664A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A6E07DD-4D0A-41B3-8BB1-54741F2F664A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A6E07DD-4D0A-41B3-8BB1-54741F2F664A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A6E07DD-4D0A-41B3-8BB1-54741F2F664A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{369CE00B-0696-4262-A38E-28A88FDACBB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369CE00B-0696-4262-A38E-28A88FDACBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369CE00B-0696-4262-A38E-28A88FDACBB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369CE00B-0696-4262-A38E-28A88FDACBB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8701EC3A-072F-4815-B825-78C6363F9811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8701EC3A-072F-4815-B825-78C6363F9811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8701EC3A-072F-4815-B825-78C6363F9811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8701EC3A-072F-4815-B825-78C6363F9811}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
